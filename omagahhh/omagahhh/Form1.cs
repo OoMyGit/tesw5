@@ -16,19 +16,6 @@ namespace omagahhh
         {
             InitializeComponent();
         }
-
-        private void taimer_Tick(object sender, EventArgs e)
-        {
-            lebel.Text = DateTime.Now.ToString("F");
-            if (progress.Value < progress.Maximum)
-            {
-                progress.Value += 10;
-            }
-            else
-            {
-                progress.Value += 0;
-            }
-        }
         DataTable coba = new DataTable();
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -39,15 +26,15 @@ namespace omagahhh
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            int cek = 0;
-            foreach (DataGridViewRow dr in bruh.Rows)
+            bool cek = false;
+            foreach (DataRow dr in coba.Rows)
             {
-                if (dr.Cells[2].Value == textBox3.Text || dr.Cells[1].Value == textBox2.Text || dr.Cells[0].Value == textBox1.Text)
+                if (dr[2].ToString() == textBox3.Text && dr[1].ToString() == textBox2.Text && dr[0].ToString() == textBox1.Text)
                 {
-                    cek++;
+                    cek=true;
                 }
             }
-            if (cek == 0)
+            if (cek == false)
             {
                 coba.Rows.Add(textBox1.Text,textBox2.Text, textBox3.Text);
                 bruh.DataSource = coba;
