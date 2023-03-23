@@ -1,0 +1,11 @@
+C:\Users\student\source\repos\omagahhh\omagahhh\bin\Debug\omagahhh.exe.config
+C:\Users\student\source\repos\omagahhh\omagahhh\bin\Debug\omagahhh.exe
+C:\Users\student\source\repos\omagahhh\omagahhh\bin\Debug\omagahhh.pdb
+C:\Users\student\source\repos\omagahhh\omagahhh\obj\Debug\omagahhh.csproj.AssemblyReference.cache
+C:\Users\student\source\repos\omagahhh\omagahhh\obj\Debug\omagahhh.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\source\repos\omagahhh\omagahhh\obj\Debug\omagahhh.Form1.resources
+C:\Users\student\source\repos\omagahhh\omagahhh\obj\Debug\omagahhh.Properties.Resources.resources
+C:\Users\student\source\repos\omagahhh\omagahhh\obj\Debug\omagahhh.csproj.GenerateResource.cache
+C:\Users\student\source\repos\omagahhh\omagahhh\obj\Debug\omagahhh.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\omagahhh\omagahhh\obj\Debug\omagahhh.exe
+C:\Users\student\source\repos\omagahhh\omagahhh\obj\Debug\omagahhh.pdb
